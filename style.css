@@ -132,7 +132,7 @@ p a:hover {
     width: 300px;
     height: 200px;
 }
-#materi-rekomendasi .basicgrammar{
+#materi-rekomendasi .parts-of-speach{
     width: 300px;
     height: 200px;
 }
@@ -181,6 +181,7 @@ p a:hover {
 .konten-rekomendasi {
     margin: 30px;
     padding:0px;
+    text-align: justify;
 }
 
 
