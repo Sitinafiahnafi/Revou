@@ -98,17 +98,10 @@ p a:hover {
     margin:30px;
     text-align: center;
 }
-#produkkami .grammar{
+#produkkami img {
     width: 300px;
     height: 200px;
-}
-#produkkami .listening{
-    width: 300px;
-    height: 200px;
-}
-#produkkami .speaking{
-    width: 300px;
-    height: 200px;
+    border-radius: 15px;
 }
 #materi-rekomendasi h4 {
     color: #183D3D;
@@ -130,6 +123,7 @@ p a:hover {
 #materi-rekomendasi img {
     width: 300px;
     height: 200px;
+    border-radius: 15px;
 }
 .konten-rekomendasi ul li {
     font-weight: bold;
