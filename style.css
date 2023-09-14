@@ -103,6 +103,10 @@ p a:hover {
     height: 200px;
     border-radius: 15px;
 }
+#produkkami a {
+    text-decoration: none;
+    color: #183D3D;
+}
 #materi-rekomendasi h4 {
     color: #183D3D;
     width: 100%;
@@ -168,6 +172,7 @@ p a:hover {
     font-weight: bold;
     font-size: 13px;
     padding-bottom: 10px;
+    list-style: none;
 }
 .footer-right {
     float: left;
