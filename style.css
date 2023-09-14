@@ -40,7 +40,7 @@ li a {
 }
 .button-nav a:hover {
     color: #183D3D;
-    background-color: #E4E4D0;
+    background-color: #FAF3F0;
     cursor: pointer;
 }
 .main-contain {
@@ -95,19 +95,33 @@ p a:hover {
 }
 #produkkami .kolom {
     display: inline-block;
-    margin:30px;
     text-align: center;
+    background-color: #FAF3F0;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0px 30px;
+}
+#produkkami .kolom:hover {
+    background-color: #CBE4DE;
+    cursor: pointer;
 }
 #produkkami img {
-    width: 300px;
+    width: 270px;
     height: 200px;
     border-radius: 15px;
+    margin: 15px;
 }
 #produkkami a {
     text-decoration: none;
     color: #183D3D;
 }
-#materi-rekomendasi h4 {
+#produkkami p {
+    width: 270px;
+    height: auto;
+    color: #183D3D;
+    margin: 15px;
+}
+ h4 {
     color: #183D3D;
     width: 100%;
     text-align: center;
