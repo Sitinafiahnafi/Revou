@@ -186,4 +186,29 @@ p a:hover {
     font-size: 13px;
     padding-top: 5px;
 }
-
+#beasiswa img {
+    width: 400px;
+    height: 300px;
+    margin: 30px 10px 30px 50px;
+    float: left;
+}
+#beasiswa .konten1 {
+    width:600px;
+    height:300px;
+    float: right;
+    color: #183D3D;
+    margin:20px;
+}  
+#Temukan-Beasiswa-Menarik-yang-Harus-Kamu-Coba h4 {
+    color: #183D3D;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #AEC3AE;
+    border-radius: 50px;
+}
+#Temukan-Beasiswa-Menarik-yang-Harus-Kamu-Coba .kolom {
+    display: inline-block;
+    margin:30px;
+    text-align: center;
+}
