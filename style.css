@@ -205,19 +205,25 @@ p a:hover {
     font-size: 13px;
     padding-top: 5px;
 }
-#beasiswa img {
-    width: 400px;
-    height: 300px;
-    margin: 30px 10px 30px 50px;
-    float: left;
-}
 #beasiswa .konten1 {
     width:600px;
     height:300px;
     float: right;
     color: #183D3D;
     margin:20px;
-}  
+}
+#beasiswa img {
+    width: 400px;
+    height: 300px;
+    margin: 30px 10px 30px 50px;
+    float: left;
+    border-radius: 20px;
+} 
+#beasiswa .konten2 {
+    clear: both;
+    margin: 10px 50px;
+    text-align: justify;
+}
 #Temukan-Beasiswa-Menarik-yang-Harus-Kamu-Coba h4 {
     color: #183D3D;
     width: 100%;
@@ -230,6 +236,25 @@ p a:hover {
     display: inline-block;
     margin:30px;
     text-align: center;
+}
+#beasiswa h4 {
+    color: #183D3D;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #AEC3AE;
+    border-radius: 50px;
+}
+.beasiswa .kolom {
+    display: inline-block;
+    margin:30px;
+    text-align: center;
+}
+.beasiswa img {
+    width: 400px;
+    height: 300px;
+    margin: 30px 10px 30px 50px;
+    float: left;
 }
 .search-bar {
     margin:20px auto;
@@ -249,4 +274,23 @@ p a:hover {
     margin: 15px;
     width : 700px;
     color: #183D3D;
+}
+#beasiswa h4 {
+    color: #183D3D;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #AEC3AE;
+    border-radius: 50px;
+}
+#beasiswa .kolom {
+    display: inline-block;
+    margin:30px;
+    text-align: center;
+}
+#beasiswa img {
+    width: 400px;
+    height: 300px;
+    margin: 30px 10px 30px 50px;
+    float: left;
 }
