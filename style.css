@@ -4,7 +4,7 @@ body {
     padding: 0px;
 }
 .main-container {
-    width: 1100px;
+    max-width: 1100px;
     margin : 0 auto;
 }
 .header-container {
@@ -43,6 +43,35 @@ li a {
     background-color: #FAF3F0;
     cursor: pointer;
 }
+
+/* hamburger menu */
+/* .menu-toogle {
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    position: relative;
+}
+.menu-toogle span {
+    display: block;
+    width : 28px;
+    height: 3px;
+    background-color:#183D3D;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+.menu-toogle input {
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top:-5px;
+    opacity: 0;
+    z-index: 2;
+} */
+
 .main-contain {
     margin:0px;
     padding:0px;
@@ -275,3 +304,44 @@ p a:hover {
     width : 700px;
     color: #183D3D;
 }
+/* Responsive Breakpoint */
+/*ukuran tablet*/
+/* @media screen and (max-width: 1100px) {
+    .menu .menu-toogle {
+        display : none;
+    }
+} */
+/*ukuran tablet*/
+/* @media screen and (max-width: 800px) {
+    .menu ul {
+        display : none;
+    }
+    #beranda img,
+    #beasiswa img {
+        width: 600px;
+        height: 500px;
+        margin: 30px 0px 0px 30px;
+    }
+    #beranda .konten1,
+    #beasiswa .konten1 {
+        display: block;
+        float: left;
+    }
+} */
+/*ukuran tablet*/
+/* @media screen and (max-width: 576px) {
+    .menu ul {
+        display : none;
+    }
+    #beranda img, 
+    #beasiswa img {
+        width: 450px;
+        height: 350px;
+        margin: 30px 0px 0px 30px;
+    }
+    #beranda .konten1,
+    #beasiswa .konten1,{
+        float: left;
+        display: block;
+    }
+} */
