@@ -266,6 +266,20 @@ p a:hover {
     margin:30px;
     text-align: center;
 }
+#Temukan-Beasiswa-Menarik-yang-Harus-Kamu-Coba img {
+    width: 400px;
+    height: 300px;
+    margin: 30px 10px 30px 50px;
+    border-radius: 15px;
+    float: center;
+}
+#Temukan-Beasiswa-Menarik-yang-Harus-Kamu-Coba .Kolom {
+display: inline-block;
+text-align: center;
+overflow: hidden;
+border-radius: 20px;
+margin: 0px 30px;
+}
 #beasiswa h4 {
     color: #183D3D;
     width: 100%;
