@@ -109,23 +109,34 @@ body {
 
 /* Register Form */
 .wrapper {
-    position: relative;
-    width: 27rem;
-    height:27rem;
-    background-color: var(--bg);
-    border-radius: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 7%;
 }
 
 .wrapper .form-box {
-    width: 100%;
+    width: 27rem;
     padding: 2rem;
     line-height: 2rem;
+    background-color: var(--bg);
+    border-radius: 2rem;
 }
 
-.wrapper .form-box h2 {
+.wrapper .icon-close {
+    position: absolute;
+    top:0;
+    right:0;
+    width:3rem;
+    height:3rem;
+    color: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index:1;
+}
+
+.wrapper .form-box h2{
     text-align: center;
     font-size: 1.8rem;
 }
@@ -136,23 +147,6 @@ body {
     height: 2.5rem;
     border-bottom: 2px solid #0b1d1d;
     margin:2rem 0;
-}
-
-.wrapper .form-box .input-box label{
-    position: absolute;
-    top:50%;
-    left:.5rem;
-    transform: translateY(-50%);
-    font-size:1rem;
-    font-weight: bold;
-    pointer-events: none;
-    transition: .5s;
-}
-
-.wrapper .form-box .input-box input:focus~label,
-.wrapper .form-box .input-box input:valid~label {
-    top:-.5rem;
-    display: none;
 }
 
 .wrapper .form-box .input-box input{
@@ -272,7 +266,8 @@ body {
 
 /*Beasiswa section*/
 .beasiswa,
-.produkkami {
+.produkkami,
+.tentangkami {
     padding: 8rem 7%;
 }
 
@@ -355,27 +350,35 @@ body {
     line-height: 1.6rem;
 }
 
-.produkkkami h2 span {
+.produkkkami h2 span,
+.tentangkami h2 span {
     color:#0b1d1d;
 }
-.produkkami .row {
+.produkkami .row,
+.tentangkami .row {
     display: flex;
     flex-wrap: wrap;
     margin-top:3rem;
     justify-content: space-evenly;
 }
 
-.produkkami .row .menu-card {
+.produkkami .row .menu-card,
+.tentangkami .row .profil-card {
     text-align: center;
     padding-bottom: 3.5rem;
 }
 
-.produkkami .row .menu-card img {
+.produkkami .row .menu-card img{
     border-radius: 3rem;
     max-width: 30rem;
 }
 
-.produkkami .row .menu-card .menu-card-title {
+.tentangkami .row .profil-card img {
+    width: 10rem;
+}
+
+.produkkami .row .menu-card .menu-card-title,
+.tentangkami .row .menu-card .menu-card-title {
     margin-top: 1.5rem auto 0.5rem;
     padding-top :1rem;
     margin-bottom: 0.5rem;
@@ -383,7 +386,8 @@ body {
 
 }
 
-.produkkami .row .menu-card .menu-card-desk {
+.produkkami .row .menu-card .menu-card-desk,
+.tentangkami .row .menu-card .menu-card-desk {
     margin-top: 1.5rem auto 0.5rem;
     max-width: 25rem;
     text-align: center;
@@ -503,7 +507,8 @@ footer .credit a {
 
     .beasiswa .row,
     .hero .row,
-    .produkkami .row  {
+    .produkkami .row,
+    .tentangkami .row  {
         flex-wrap: wrap;
     }
 
@@ -532,7 +537,8 @@ footer .credit a {
         font-size: 2rem;
     }
 
-    .produkkami .row .menu-card .menu-card-desk {
+    .produkkami .row .menu-card .menu-card-desk,
+    .tentangkami .row .menu-card .menu-card-desk {
         font-size: 1.3rem;
     }
 

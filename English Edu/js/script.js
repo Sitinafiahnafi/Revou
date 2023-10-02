@@ -30,5 +30,3 @@ document.querySelector('#search-button').onclick = (e) => {
     searchBox.focus();
     e.preventDefault();
 };
-
-// Form Validation
