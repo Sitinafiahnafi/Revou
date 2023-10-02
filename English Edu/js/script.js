@@ -9,7 +9,7 @@ document.querySelector('#hamburger-menu').onclick = (e) => {
 
 //klik di luar elemen
 const hm = document.querySelector ('#hamburger-menu');
-const  sb =document.querySelector ('#search-button');
+const sb = document.querySelector ('#search-button');
 
 document.addEventListener('click',function(e) {
     if(!hm.contains(e.target) && !navbarNav.contains(e.target)) {
@@ -30,3 +30,27 @@ document.querySelector('#search-button').onclick = (e) => {
     searchBox.focus();
     e.preventDefault();
 };
+
+ // Mendapatkan referensi ke tombol dengan ID
+ var buttonBeasiswa = document.getElementById("buttonBeasiswa");
+ var buttonSpeaking = document.getElementById("buttonSpeaking");
+ var buttonGrammar = document.getElementById("buttonGrammar");
+ var buttonListening = document.getElementById("buttonListening");
+
+ // Menambahkan event listener untuk mengarahkan pengguna ke halaman lain saat tombol diklik
+ buttonBeasiswa.addEventListener("click", function() {
+     var halamanBeasiswa = "https://www.scholarsofficial.com/category/beasiswa-luar-negeri/";
+     window.location.href = halamanBeasiswa;
+ });
+ buttonSpeaking.addEventListener("click", function() {
+    var halamanSpeaking = "speaking.html";
+    window.location.href = halamanSpeaking;
+});
+buttonGrammar.addEventListener("click", function() {
+    var halamanGrammar = "https://www.scholarsofficial.com/category/beasiswa-luar-negeri/";
+    window.location.href = halamanGrammar;
+});
+buttonListening.addEventListener("click", function() {
+    var halamanListening = "https://www.scholarsofficial.com/category/beasiswa-luar-negeri/";
+    window.location.href = halamanListening;
+});

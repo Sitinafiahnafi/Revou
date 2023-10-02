@@ -319,7 +319,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.beasiswa .content .cta {
+.beasiswa .content #buttonBeasiswa {
     font-size: 1.2rem;
     color:#183D3D;
     margin-top: 3rem;
@@ -327,9 +327,10 @@ body {
     background-color:rgba(158, 179, 132, 0.8);
     border-radius: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
-.beasiswa .content .cta:hover {
+.beasiswa .content #buttonBeasiswa:hover {
     background-color: #183D3D;
     color: #CEDEBD;
 }
@@ -396,7 +397,9 @@ body {
     margin-bottom: 1.4rem;
 }
 
-.produkkami .menu-card .cta {
+.produkkami .menu-card #buttonSpeaking,
+.produkkami .menu-card #buttonGrammar,
+.produkkami .menu-card #buttonListening {
     font-size: 1.1rem;
     color: #CEDEBD;
     padding: 0.5rem;
@@ -405,7 +408,9 @@ body {
     font-weight: bold;
 }
 
-.produkkami .menu-card .cta:hover {
+.produkkami .menu-card #buttonSpeaking:hover,
+.produkkami .menu-card #buttonGrammar:hover,
+.produkkami .menu-card #buttonListening:hover {
     background-color: rgba(224, 241, 195, 0.8);
     color: #183D3D;
 }
