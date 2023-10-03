@@ -31,26 +31,24 @@ document.querySelector('#search-button').onclick = (e) => {
     e.preventDefault();
 };
 
- // Mendapatkan referensi ke tombol dengan ID
- var buttonBeasiswa = document.getElementById("buttonBeasiswa");
- var buttonSpeaking = document.getElementById("buttonSpeaking");
- var buttonGrammar = document.getElementById("buttonGrammar");
- var buttonListening = document.getElementById("buttonListening");
+// Modal Box
+const itemDetailModal = document.querySelector('#item-detail-modal');
+const itemDetailButtons = document.querySelectorAll('.item-detail-button');
 
- // Menambahkan event listener untuk mengarahkan pengguna ke halaman lain saat tombol diklik
- buttonBeasiswa.addEventListener("click", function() {
-     var halamanBeasiswa = "https://www.scholarsofficial.com/category/beasiswa-luar-negeri/";
-     window.location.href = halamanBeasiswa;
- });
- buttonSpeaking.addEventListener("click", function() {
-    var halamanSpeaking = "speaking.html";
-    window.location.href = halamanSpeaking;
+itemDetailButtons.forEach((btn) => {
+    btn.onclick = (e) => {
+        itemDetailModal.style.display = "flex";
+        e.preventDefault ();
+    };
 });
-buttonGrammar.addEventListener("click", function() {
-    var halamanGrammar = "https://www.scholarsofficial.com/category/beasiswa-luar-negeri/";
-    window.location.href = halamanGrammar;
-});
-buttonListening.addEventListener("click", function() {
-    var halamanListening = "https://www.scholarsofficial.com/category/beasiswa-luar-negeri/";
-    window.location.href = halamanListening;
-});
+
+// klik tombol close
+document.querySelector('.modal .close-icon').onclick = (e) => {
+    itemDetailModal.style.display = 'none';
+}
+
+window.onclick = (e) => {
+    if (e.target === itemDetailModal) {
+        itemDetailModal.style.display = 'none';
+    }
+}
